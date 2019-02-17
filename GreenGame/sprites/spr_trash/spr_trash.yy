@@ -6,13 +6,13 @@
     "For3D": false,
     "HTile": false,
     "VTile": false,
-    "bbox_bottom": 150,
-    "bbox_left": -8,
-    "bbox_right": 139,
-    "bbox_top": 18,
+    "bbox_bottom": 183,
+    "bbox_left": -62,
+    "bbox_right": 138,
+    "bbox_top": 29,
     "bboxmode": 2,
     "colkind": 2,
-    "coltolerance": 19,
+    "coltolerance": 0,
     "edgeFiltering": false,
     "frames": [
         {

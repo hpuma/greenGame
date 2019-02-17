@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "1761007c-6e75-483d-80a7-ff526c47a6cf",
+            "Value": {
+                "id": "96cf1805-d693-4aab-a9ea-0d1bbe47aa37",
+                "resourcePath": "objects\\obj_room_helper\\obj_room_helper.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1a4613ad-0230-4217-aeb2-8b5f8379c566",
             "Value": {
                 "id": "d7ca8b20-f1ba-463e-8605-70ec113a5276",

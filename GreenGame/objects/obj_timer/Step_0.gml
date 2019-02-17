@@ -1,5 +1,5 @@
-if(room == room2 && ! instance_exists(obj_item))
+if(room == Matching && ! instance_exists(obj_item))
 {
 	show_message("Win");
-	game_end();
+	room_goto(rRoom);
 }

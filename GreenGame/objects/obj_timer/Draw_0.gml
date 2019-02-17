@@ -5,13 +5,15 @@ if(timer > 0)
 else
 {
 	//show_debug_message(room);
-	if(room == room1)
+	if(room == Polar)
 	{
 		show_message("Win");
+		room_goto(rRoom);
 	}
-	if(room == room2)
+	if(room == Matching)
 	{
 		show_message("Lose");
+		game_end();
 	}
 	game_end();
 }
