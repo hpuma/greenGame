@@ -1,0 +1,1 @@
+instance_create_depth(floor(random_range(0, 512)) , floor(random_range(0, 512)) , 1, obj_item);
