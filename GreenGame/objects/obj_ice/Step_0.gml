@@ -5,12 +5,12 @@ show_debug_message("Mouse ang: " + string(180 - ((mouse_x - x)/abs(mouse_x - x))
 if(Is_Rotating == 1)
 {
 	show_debug_message(velocity);
-	velocity = sin(velocity);
-	image_angle += velocity;
+	image_angle += sin(velocity);
 	if(abs(image_angle) >= 90)
 	{
-		show_message("You lose");
-		game_end();
+		//show_message("Lose");
+		visible = false;
+		obj_repbut.visible = true;
 	}
 }
 
