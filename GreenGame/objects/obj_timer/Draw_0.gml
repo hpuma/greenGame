@@ -13,7 +13,11 @@ else
 	if(room == Matching)
 	{
 		//show_message("Lose");
-		instance_create_depth(x,y,1,obj_repbut);
+		for(j = 0; j < arrlen; j++)
+		{
+			alarm[j] = -1;
+		}
+		obj_repbut.visible = true;
 	}
 }
 

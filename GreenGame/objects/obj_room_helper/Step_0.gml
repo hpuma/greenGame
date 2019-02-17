@@ -5,5 +5,5 @@ if(i < 60)
 else
 {
 	i = 0;
-	room_goto(choose(Polar, Matching));
+	room_goto(global.s);
 }
