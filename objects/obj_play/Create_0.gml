@@ -1,0 +1,1 @@
+global.gameNum = 0;
